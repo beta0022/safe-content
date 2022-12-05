@@ -1,0 +1,128 @@
+body {
+    background-color: #DCD0C7;
+    color: #ffffff ;
+    font-family: "Montserrat", sans-serif;
+    text-align: center;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+}
+
+
+/* .main {
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+    width: 400px;
+    height: auto;
+    border-radius: 20px;
+} */
+
+h1 {
+    font-size: 24px;
+}
+
+
+.login {
+    width: 400px;
+    height: 340;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: #806a5e;
+    border: 1px solid #9b7e75;
+    border-radius: 20px;
+    box-shadow: 0 0 10px 1px #9b7e75;
+    backdrop-filter: blur(15px);
+}
+
+
+.login-form {
+    font-size: 16px;
+    line-height: 30px;
+    margin: 16px;
+}
+
+
+input {
+    font-size: 12px;
+    text-align: center;
+    padding: 6px;
+    font-family: "Montserrat", sans-serif;
+    border: none;
+    border-radius: 4px;
+    margin-bottom: 10px;
+}
+
+button {
+    width: 120px;
+    height: 24px;
+    font-family: "Montserrat", sans-serif;
+    font-size: 14px;
+    background-color: #927b6f;
+    color: #ffffff;
+    cursor: pointer;
+    box-shadow: 2px 2px 10px 1px #77635d;
+    border: none;
+    border-radius: 4px;
+    transition: all .2s ease-in-out;
+    margin: 20px;
+}
+
+button:hover {
+    transform: scale(1.1);
+}
+
+.incorrect {
+    font-family: "Montserrat", sans-serif;
+    font-size: 10px;
+    color: black;
+}
+
+.hide {
+    display: none;
+}
+
+
+/* .secret-content {
+
+} */
+
+
+video {
+    display: block;
+    margin: auto;
+    padding-bottom: 20px;
+}
+
+
+.table-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+thead {
+    background-color: #927b6f;
+    font-size: 10px;
+    cursor: pointer;
+}
+
+
+tbody {
+    color: #77635d;
+    font-size: 12px;
+}
+
+
+td {
+    height: 20px;
+    width: auto;
+    padding: 10px;
+    text-align: center;
+    border-radius: 4px;
+    border: 1px solid #77635d4a;
+}

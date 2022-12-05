@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="icon" type="image/x-icon" href="img/safe.png">
+    <link rel="stylesheet" href="css/main.css">
+    <title>Safe Content</title>
+</head>
+
+
+<body>
+
+    <div class="main">
+        
+        <div class="login">
+            
+            <h1>Log In</h1>
+
+            <form onsubmit="onLogin(event)" class="login-form">
+                Username  <br>
+                <input type="text" name="username" placeholder="Enter username" />  <br>
+                Password  <br>
+                <input type="text" name="password" placeholder="Enter password"/>  <br>
+                <button>Login</button>
+                <p class="incorrect hide">Incorrect. Try again.</p>
+            </form>
+
+        </div>
+
+        <div class="secret-content"></div>
+
+    </div>
+
+    <script src="js/services/storage-service.js"></script>
+    <script src="js/services/user-service.js"></script>
+    <script src="js/controller.js"></script>
+    <!-- <script src="js/controller-admin.js"></script> -->
+</body>
+
+</html>
